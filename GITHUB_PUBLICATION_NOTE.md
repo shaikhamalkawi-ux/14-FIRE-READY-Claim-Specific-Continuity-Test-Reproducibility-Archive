@@ -22,4 +22,6 @@ Expected: **15/15** conformance/metamorphic tests PASS and **5/5** rule-to-recor
 
 The journal-supplied reproducibility ZIP remains the canonical frozen package and contains its SHA-256 manifest. This GitHub repository is the public, directly inspectable mirror of the text/code artifacts. Formatting-only JSON serialization differences in the public mirror do not change the registered rules or scientific results.
 
-No software license has been assigned by this publication step; license selection remains an author decision.
+The canonical ZIP is now preserved in Zenodo, version 149R4: https://doi.org/10.5281/zenodo.22730737 (concept DOI: https://doi.org/10.5281/zenodo.22730736). This direct deposit contains only the unchanged reproducibility ZIP and its accompanying rights notice.
+
+The authors approved MIT for their original software and CC BY 4.0 for their original documentation/data contributions for which they own the rights. See LICENSES_AND_RIGHTS.txt for the file-level scope. Third-party material and external-source excerpts retain their original rights and are excluded from these grants.
