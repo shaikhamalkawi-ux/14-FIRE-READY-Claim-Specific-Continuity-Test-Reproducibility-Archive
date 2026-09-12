@@ -1,0 +1,51 @@
+{
+  "registry_version": "SOCR-RULES-1.0",
+  "baseline": "submission benchmark registry",
+  "semantics": {
+    "route_logic": "OR of sufficient AND-routes",
+    "states": [
+      "verified",
+      "unresolved",
+      "failed"
+    ],
+    "repair_policy": "Return inclusion-minimal unresolved role sets only from still-possible sufficient routes. If every route contains a failed mandatory relation, minimal_repair is empty and the candidate/question route is closed.",
+    "qualification_policy": "A fully verified qualified route yields preserved_with_qualification."
+  },
+  "claims": {
+    "FR-B06a-MATCHED": {
+      "routes": [["same target","same event universe","compatible domain/time/support","commensurate unit"]],
+      "states": {"same target":"verified","same event universe":"verified","compatible domain/time/support":"verified","commensurate unit":"verified"},
+      "qualified": false,
+      "record_role_map": {},
+      "expected_pcae": [1,1]
+    },
+    "FR-B06b-WHOLE-YEAR": {
+      "routes": [["same target","same event universe","compatible domain/time/support","commensurate unit"]],
+      "states": {"same target":"verified","same event universe":"failed","compatible domain/time/support":"verified","commensurate unit":"verified"},
+      "qualified": false,
+      "record_role_map": {},
+      "expected_pcae": [0,0]
+    },
+    "PT-COMMON-SUPPORT-J": {
+      "routes": [["P established","K established","J common support"]],
+      "states": {"P established":"verified","K established":"verified","J common support":"unresolved"},
+      "qualified": false,
+      "record_role_map": {"J common support":"J common-support relation"},
+      "expected_pcae": [0,1]
+    },
+    "CASTELO-2026-EXPECTED-OUTCOME": {
+      "routes": [["approved plan facts","post-intervention outcome evidence","appropriate comparison/attribution for causal wording"]],
+      "states": {"approved plan facts":"verified","post-intervention outcome evidence":"unresolved","appropriate comparison/attribution for causal wording":"unresolved"},
+      "qualified": false,
+      "record_role_map": {"post-intervention outcome evidence":"post-intervention outcome evidence","appropriate comparison/attribution for causal wording":"appropriate comparison/attribution design"},
+      "expected_pcae": [0,1]
+    },
+    "AGUEDA-2026-LOT-GEOMETRY": {
+      "routes": [["2026 procurement facts","operative 2026 geometry"],["2026 procurement facts","authoritative temporal identity/crosswalk to the 2026 procedure"]],
+      "states": {"2026 procurement facts":"verified","operative 2026 geometry":"unresolved","authoritative temporal identity/crosswalk to the 2026 procedure":"unresolved"},
+      "qualified": false,
+      "record_role_map": {"operative 2026 geometry":"operative 2026 procedure geometry","authoritative temporal identity/crosswalk to the 2026 procedure":"authoritative crosswalk linking older geometry to each 2026 lot"},
+      "expected_pcae": [0,1]
+    }
+  }
+}
