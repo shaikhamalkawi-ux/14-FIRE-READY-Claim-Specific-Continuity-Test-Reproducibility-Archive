@@ -1,0 +1,9 @@
+case_id,registered_interpretation_g,release_predicate_tau,state
+B01,WUI-fire interpretation remains supported across admitted burned-area representation,Same claim direction/interpretation under registered matched comparison,P
+B02,Near-matched global WUI extents provide qualified cross-study convergence,Qualified convergence remains defensible without exact-replication claim,P
+B03,Portugal WUI extent is not strongly dependent on building-data choice,Building-universe comparison does not materially change extent/overlap interpretation,C
+B04,U.S. WUI extent is stable to registered neighborhood-support change,Support change does not materially alter mapped-extent interpretation,C
+B05,2023 Canadian season remains exceptional after burned-area adjustment,Exceptional-season conclusion survives admitted correction,P
+B06a,Matched EFFIS comparison tests same selected-fire burned-area claim,Same selected-fire event universe and corresponding interpretation,P
+B07,France FWI rarity is stable across registered support definition,Rarity/return-period interpretation is not materially support-dependent,C
+B08,Global burned-area total is stable to correction/small-fire representation,Correction/representation does not materially change total-BA interpretation,C
