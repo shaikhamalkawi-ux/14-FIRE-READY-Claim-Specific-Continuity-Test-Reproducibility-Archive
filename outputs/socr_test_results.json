@@ -1,0 +1,81 @@
+{
+  "passed": 15,
+  "total": 15,
+  "results": [
+    {
+      "test_id": "T01",
+      "pass": true,
+      "note": "Determinism"
+    },
+    {
+      "test_id": "T02",
+      "pass": true,
+      "note": "Crisp recovery"
+    },
+    {
+      "test_id": "T03",
+      "pass": true,
+      "note": "Nonsemantic metadata is outside semantic inputs"
+    },
+    {
+      "test_id": "T04",
+      "pass": true,
+      "note": "Event-universe failure changes state"
+    },
+    {
+      "test_id": "T05",
+      "pass": true,
+      "note": "Refinement monotonicity"
+    },
+    {
+      "test_id": "T06",
+      "pass": true,
+      "note": "Contradiction closure"
+    },
+    {
+      "test_id": "T07",
+      "pass": true,
+      "note": "Portugal minimal repair exactly {J}"
+    },
+    {
+      "test_id": "T08",
+      "pass": true,
+      "note": "Non-compensation"
+    },
+    {
+      "test_id": "T09",
+      "pass": true,
+      "note": "Alternative geometry routes"
+    },
+    {
+      "test_id": "T10",
+      "pass": true,
+      "note": "Outcome promotion blocked"
+    },
+    {
+      "test_id": "T11",
+      "pass": true,
+      "note": "Schema validation"
+    },
+    {
+      "test_id": "T12",
+      "pass": true,
+      "note": "No fabricated hashes"
+    },
+    {
+      "test_id": "T13",
+      "pass": true,
+      "note": "Failed mandatory relation has no evidence repair"
+    },
+    {
+      "test_id": "T14",
+      "pass": true,
+      "note": "Failed OR route pruned"
+    },
+    {
+      "test_id": "T15",
+      "pass": true,
+      "note": "Qualified preservation state"
+    }
+  ]
+}
