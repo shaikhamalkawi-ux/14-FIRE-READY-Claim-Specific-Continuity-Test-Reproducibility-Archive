@@ -1,0 +1,57 @@
+{
+  "records_checked": 5,
+  "records_passed": 5,
+  "all_pass": true,
+  "validation": [
+    {
+      "claim_id": "FR-B06a-MATCHED",
+      "checks": {
+        "state": true,
+        "N": true,
+        "Pi": true,
+        "repair": true
+      },
+      "pass": true
+    },
+    {
+      "claim_id": "FR-B06b-WHOLE-YEAR",
+      "checks": {
+        "state": true,
+        "N": true,
+        "Pi": true,
+        "repair": true
+      },
+      "pass": true
+    },
+    {
+      "claim_id": "PT-COMMON-SUPPORT-J",
+      "checks": {
+        "state": true,
+        "N": true,
+        "Pi": true,
+        "repair": true
+      },
+      "pass": true
+    },
+    {
+      "claim_id": "CASTELO-2026-EXPECTED-OUTCOME",
+      "checks": {
+        "state": true,
+        "N": true,
+        "Pi": true,
+        "repair": true
+      },
+      "pass": true
+    },
+    {
+      "claim_id": "AGUEDA-2026-LOT-GEOMETRY",
+      "checks": {
+        "state": true,
+        "N": true,
+        "Pi": true,
+        "repair": true
+      },
+      "pass": true
+    }
+  ]
+}
