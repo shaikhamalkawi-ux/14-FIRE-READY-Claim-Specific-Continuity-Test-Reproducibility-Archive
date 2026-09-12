@@ -1,42 +1,132 @@
 {
   "FR_MATCHED": {
-    "routes": [["target","event_universe","domain_time_support","unit"]],
-    "states": {"target":"verified","event_universe":"verified","domain_time_support":"verified","unit":"verified"},
+    "routes": [
+      [
+        "target",
+        "event_universe",
+        "domain_time_support",
+        "unit"
+      ]
+    ],
+    "states": {
+      "target": "verified",
+      "event_universe": "verified",
+      "domain_time_support": "verified",
+      "unit": "verified"
+    },
     "qualified": false
   },
   "FR_WHOLE_YEAR": {
-    "routes": [["target","event_universe","domain_time_support","unit"]],
-    "states": {"target":"verified","event_universe":"failed","domain_time_support":"verified","unit":"verified"},
+    "routes": [
+      [
+        "target",
+        "event_universe",
+        "domain_time_support",
+        "unit"
+      ]
+    ],
+    "states": {
+      "target": "verified",
+      "event_universe": "failed",
+      "domain_time_support": "verified",
+      "unit": "verified"
+    },
     "qualified": false
   },
   "PT_J": {
-    "routes": [["P","K","J"]],
-    "states": {"P":"verified","K":"verified","J":"unresolved"},
+    "routes": [
+      [
+        "P",
+        "K",
+        "J"
+      ]
+    ],
+    "states": {
+      "P": "verified",
+      "K": "verified",
+      "J": "unresolved"
+    },
     "qualified": false
   },
   "CASTELO_OUTCOME": {
-    "routes": [["plan_fact","outcome_evidence","attribution_design"]],
-    "states": {"plan_fact":"verified","outcome_evidence":"unresolved","attribution_design":"unresolved"},
+    "routes": [
+      [
+        "plan_fact",
+        "outcome_evidence",
+        "attribution_design"
+      ]
+    ],
+    "states": {
+      "plan_fact": "verified",
+      "outcome_evidence": "unresolved",
+      "attribution_design": "unresolved"
+    },
     "qualified": false
   },
   "AGUEDA_GEOMETRY": {
-    "routes": [["procurement_fact","operative_2026_geometry"],["procurement_fact","authoritative_crosswalk"]],
-    "states": {"procurement_fact":"verified","operative_2026_geometry":"unresolved","authoritative_crosswalk":"unresolved"},
+    "routes": [
+      [
+        "procurement_fact",
+        "operative_2026_geometry"
+      ],
+      [
+        "procurement_fact",
+        "authoritative_crosswalk"
+      ]
+    ],
+    "states": {
+      "procurement_fact": "verified",
+      "operative_2026_geometry": "unresolved",
+      "authoritative_crosswalk": "unresolved"
+    },
     "qualified": false
   },
   "FAILED_CANDIDATE_NO_REPAIR": {
-    "routes": [["target","event_universe","unit"]],
-    "states": {"target":"verified","event_universe":"failed","unit":"verified"},
+    "routes": [
+      [
+        "target",
+        "event_universe",
+        "unit"
+      ]
+    ],
+    "states": {
+      "target": "verified",
+      "event_universe": "failed",
+      "unit": "verified"
+    },
     "qualified": false
   },
   "ALTERNATIVE_ROUTE_WITH_ONE_FAILED": {
-    "routes": [["base","route_A"],["base","route_B"]],
-    "states": {"base":"verified","route_A":"failed","route_B":"unresolved"},
+    "routes": [
+      [
+        "base",
+        "route_A"
+      ],
+      [
+        "base",
+        "route_B"
+      ]
+    ],
+    "states": {
+      "base": "verified",
+      "route_A": "failed",
+      "route_B": "unresolved"
+    },
     "qualified": false
   },
   "QUALIFIED_PRESERVED": {
-    "routes": [["target","near_construct","universe"]],
-    "states": {"target":"verified","near_construct":"verified","universe":"verified"},
+    "routes": [
+      [
+        "target",
+        "near_construct",
+        "universe"
+      ]
+    ],
+    "states": {
+      "target": "verified",
+      "near_construct": "verified",
+      "universe": "verified"
+    },
     "qualified": true
   }
 }
