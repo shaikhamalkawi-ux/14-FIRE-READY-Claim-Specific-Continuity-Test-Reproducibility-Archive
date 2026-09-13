@@ -2,7 +2,7 @@
 
 Reproducibility repository for the manuscript:
 
-**When Data Substitution Changes the Scientific Question: Claim-Level Evidence Admissibility in Wildfire Robustness Analysis**
+**When Data Substitution Changes the Scientific Question: An Evidence-Admissibility Test for Wildfire Robustness Analysis**
 
 This repository supports deterministic replay of the claim-continuity serialization reported in the manuscript. It includes the benchmark registry, release predicates, SOCR schema/examples, prespecified OR-of-AND rule registry, conformance/metamorphic tests, rule-to-record validation, and the **blinded semantic-coding packet prepared for future independent recoding**.
 
