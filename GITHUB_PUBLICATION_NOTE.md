@@ -2,7 +2,7 @@
 
 This public repository accompanies the manuscript:
 
-**When Data Substitution Changes the Scientific Question: Claim-Level Evidence Admissibility in Wildfire Robustness Analysis**
+**When Data Substitution Changes the Scientific Question: An Evidence-Admissibility Test for Wildfire Robustness Analysis**
 
 It mirrors the executable and human-readable reproducibility artifacts for the claim-specific continuity test: benchmark and release-contract registries, SOCR schema/examples, deterministic conformance and metamorphic tests, rule-to-record validation, and the **blinded semantic-coding packet prepared for future independent recoding**.
 
