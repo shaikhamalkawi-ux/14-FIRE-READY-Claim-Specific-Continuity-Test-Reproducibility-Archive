@@ -6,5 +6,5 @@ B04,primary,U.S. WUI extent,Strict,Conditioned,3.357,Neighborhood support change
 B05,primary,Canada burned area 2023,Strict,Preserved,1.152,Magnitude correction does not overturn exceptional-season conclusion
 B06a,primary,France burned area 2022,Strict,Preserved,1.137,Same selected fires: high-resolution versus matched EFFIS
 B06b,semantic stress,France whole-year burned area,STOP,Not evaluated,,Event universe changes; original robustness claim not licensed
-B07,primary,France FWI rarity,Strict,Conditioned,16.833,Return period strongly support-dependent
+B07,primary,France FWI rarity,Strict,Conditioned,16.833,Return-period interpretation changes strongly with support
 B08,primary,Global burned area,Strict,Conditioned,1.930,Corrections and small-fire representation change total burned area
