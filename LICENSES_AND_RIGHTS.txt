@@ -2,7 +2,7 @@ FIRE READY - Claim-Specific Continuity Test
 Licenses and rights for the public reproducibility materials
 
 Supporting paper:
-When Data Substitution Changes the Scientific Question: Claim-Level Evidence Admissibility in Wildfire Robustness Analysis
+When Data Substitution Changes the Scientific Question: An Evidence-Admissibility Test for Wildfire Robustness Analysis
 
 Authors: Ghassan Malkawi; Ahmed Abdelaziz Elsayed
 Archive version: 149R4
