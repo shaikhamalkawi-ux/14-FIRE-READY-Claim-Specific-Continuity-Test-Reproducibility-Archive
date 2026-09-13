@@ -4,9 +4,9 @@ Reproducibility repository for the manuscript:
 
 **When Data Substitution Changes the Scientific Question: Claim-Level Evidence Admissibility in Wildfire Robustness Analysis**
 
-This repository supports deterministic replay of the claim-continuity serialization reported in the manuscript. It includes the benchmark registry, release predicates, SOCR schema/examples, prespecified OR-of-AND rule registry, conformance/metamorphic tests, rule-to-record validation, and the blinded semantic-coding packet.
+This repository supports deterministic replay of the claim-continuity serialization reported in the manuscript. It includes the benchmark registry, release predicates, SOCR schema/examples, prespecified OR-of-AND rule registry, conformance/metamorphic tests, rule-to-record validation, and the **blinded semantic-coding packet prepared for future independent recoding**.
 
-The executable checks verify internal consistency **conditional on the registered evidence-state coding**. They do not establish observer-independent semantic reliability or external validation.
+The executable checks verify internal consistency **conditional on the registered evidence-state coding**. They do not establish observer-independent semantic reliability or external validation. Independent semantic recoding has not been completed and no inter-rater agreement statistic is claimed.
 
 ## Run the verification
 
