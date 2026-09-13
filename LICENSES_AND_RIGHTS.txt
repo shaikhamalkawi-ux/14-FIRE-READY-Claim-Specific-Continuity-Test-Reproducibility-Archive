@@ -1,17 +1,14 @@
-FIRE READY - Claim-Specific Continuity Test
 Licenses and rights for the public reproducibility materials
 
 Supporting paper:
 When Data Substitution Changes the Scientific Question: An Evidence-Admissibility Test for Wildfire Robustness Analysis
 
-Authors: Ghassan Malkawi; Ahmed Abdelaziz Elsayed
-Archive version: 149R4
-Canonical archive: Reproducibility_Archive.zip
-Canonical archive SHA-256: 341dfa3f08aa72e1f2716837986217ace6b174de73c1828aa6ed5136853bee16
-The ZIP and its internal manifest are retained byte-for-byte. This accompanying notice records the authors' approved licensing terms without altering the frozen scientific materials.
+Archived package: Reproducibility_Archive.zip
+Archived package SHA-256: 341dfa3f08aa72e1f2716837986217ace6b174de73c1828aa6ed5136853bee16
+This notice records the approved licensing terms for the public reproducibility materials.
 
 1. Software: MIT License
-The authors' original software in the archive is licensed under the MIT License:
+The original software listed below is licensed under the MIT License:
 - run_all.sh
 - socr_adapter.py
 - test_socr_adapter.py
@@ -42,9 +39,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-2. Authors' original documentation and data: CC BY 4.0
-Only the authors' original copyrightable contributions in the following files
-are licensed under Creative Commons Attribution 4.0 International:
+2. Original documentation and data: CC BY 4.0
+Only original copyrightable contributions for which the authors hold the relevant rights in the following files are licensed under Creative Commons Attribution 4.0 International:
 - README.md
 - INDEPENDENT_CODING_CODEBOOK.md
 - independent_coding_packet.csv
@@ -59,28 +55,14 @@ are licensed under Creative Commons Attribution 4.0 International:
 License: https://creativecommons.org/licenses/by/4.0/
 Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
 
-The license applies to the authors' original coding, arrangement, descriptions,
-and documentation only, to the extent that they own the relevant rights.
+The license applies only to the original coding, arrangement, descriptions, and documentation for which the authors own the relevant rights.
 
 3. Third-party rights and source-derived information
-No third-party material, external-source excerpt, source publication, underlying
-dataset, trademark, or other content owned by another party is relicensed by
-this notice. Any such material retains its original rights and applicable
-source terms, which take precedence for that material.
+No third-party material, external-source excerpt, source publication, underlying dataset, trademark, or other content owned by another party is relicensed by this notice. Any such material retains its original rights and applicable source terms, which take precedence for that material.
 
-Source-reported numerical values, source titles, identifiers, references, URLs,
-and factual metadata are included for scientific traceability; no ownership of
-the underlying sources or their data is asserted. A source reference is not a
-grant of redistribution or reuse rights in the source.
+Source-reported numerical values, source titles, identifiers, references, URLs, and factual metadata are included for scientific traceability; no ownership of the underlying sources or their data is asserted. A source reference is not a grant of redistribution or reuse rights in the source.
 
-The deposit contains no publisher PDFs or restricted third-party binaries.
-Users obtaining external source materials separately must comply with the
-rights and terms of those sources. MIT and CC BY 4.0 are applied by file and
-authorship scope as stated above, not as a blanket dual license for all content.
+The archived deposit contains no publisher PDFs or restricted third-party binaries. Users obtaining external source materials separately must comply with the rights and terms of those sources. MIT and CC BY 4.0 are applied by file and authorship scope as stated above, not as a blanket dual license for all content.
 
 4. Scientific scope
-The archive supports a claim-specific continuity test. Deterministic
-verification is conditional on the registered semantic coding. Independent
-semantic-coding reliability was not evaluated. This is not external validation.
-SOCR is implementation/serialization, not a separate contribution. The archive
-is not a generic ranking, scoring, MCDA, fuzzy, or decision framework.
+The archive supports a claim-specific continuity test. Deterministic verification is conditional on the registered semantic coding. Independent semantic-coding reliability was not evaluated. This is not external validation. SOCR is implementation/serialization, not a separate contribution. The archive is not a generic ranking, scoring, MCDA, fuzzy, or decision framework.
